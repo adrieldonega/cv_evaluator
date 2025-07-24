@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.ipynb_checkpoints
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.vscode/
+pip-log.log
+pip-delete-this-directory.txt
+.project
+.settings
+.idea/
+
+# FastAPI specific
+.env
+.env.*
+
+# Logs and Databases
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend (Vue.js specific) - adiantando para módulos futuros
+node_modules/
+dist/
+.DS_Store
+npm-debug.log
+yarn-error.log
+
+# Other temporary files
+*.tmp
+*~
+*.swp
